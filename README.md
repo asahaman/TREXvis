@@ -23,4 +23,4 @@ for single predictor exclusion and randomization. The training and testing data 
 
 `perl TREX_pairwise_predictor.pl training_data.arff testing_data.arff X,Y`  
 
-where X,Y indicate the predictors’ numbers that are excluded and separated by comma as a delimiter.
+where X,Y indicate the predictors’ numbers that are excluded and separated by comma as a delimiter. Visualization of the resulting ΔU matrix is performed using *visualize_deltaU.R* which uses a modified version of the *heatmap.2* function (modified version stored as *heatmap_3.R* in this repository) from gplots package in R. 

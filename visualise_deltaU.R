@@ -44,7 +44,7 @@ col_breaks = c(seq(-15,-3.01,length=100), seq(-3,-0.01,length=100),
 seq(0,0.1,length=100), seq(0.11,1,length=100), seq(1.01,5,length=100), 
 seq(5.01,10,length=100), seq(10.01,15,length=100),seq(15.01,20,length=100), 
 seq(20.01,30,length=100))
-heatmap.3(clinvar_matrix, cellnote = clinvar_matrix, notecol = "black", 
+heatmap_3(clinvar_matrix, cellnote = clinvar_matrix, notecol = "black", 
 density.info ="none", trace = "none", Colv = "NA", Rowv = "NA", margins = 
 c(12.2,15.2), col=my_palette, breaks = col_breaks, na.color = "black", srtCol 
 = 45, adjCol = c(0.98,0.8), offsetCol = 0, offsetRow = 0, lmat = 
